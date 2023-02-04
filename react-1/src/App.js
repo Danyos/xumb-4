@@ -1,13 +1,14 @@
-import './App.css';
-import Table from "./Table/Table";
+import  React from 'react';
+import ProductIndex from "./Product/Index";
+
 
 function App() {
-    const x = "muxi"
+
     return (
-        <>
-            <h1 className="titles">Barev {x}</h1>
-                <Table />
-        </>
+      <>
+         <ProductIndex />
+
+      </>
     )
 }
 export default App;
