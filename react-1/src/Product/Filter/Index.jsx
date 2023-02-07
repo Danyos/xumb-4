@@ -2,13 +2,15 @@ import Stack from '@mui/material/Stack';
 import Status from "./Input/Status";
 import Price from "./Input/Price";
 import CheckboxFiled from "./Input/Category";
-function FilterIndex() {
+import {useEffect, useState} from "react";
+function FilterIndex({callback}) {
+
     return (
         <>
             <Stack direction="column" spacing={2}>
               <Status />
                 <Price />
-               <CheckboxFiled />
+               <CheckboxFiled callback={(res)=>callback(res)}/>
             </Stack>
         </>
     )

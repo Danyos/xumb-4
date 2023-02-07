@@ -1,4 +1,4 @@
-export const info_product=[
+export  const info_product=[
     {
         id: 1,
         name: "iPhone 9",
@@ -72,20 +72,20 @@ export const info_product=[
     },
     {
         id: 8,
-        name: "Microsoft Surface Laptop 4",
+        name: "Huawei Surface Laptop 4",
         description: "Style and speed. Stand out on HD video calls backed by Studio Mics. Capture ideas on the vibrant touchscreen.",
         price: 1499,
-        brand: "Microsoft Surface",
+        brand: "Huawei",
         category: "laptops",
         images: "https://dummyjson.com/image/i/products/8/1.jpg",
         status: 'refurbished'
     },
     {
         id: 9,
-        name: "Infinix INBOOK",
+        name: "Huawei INBOOK",
         description: "Infinix Inbook X1 Ci3 10th 8GB 256GB 14 Win10 Grey – 1 Year Warranty",
         price: 1099,
-        brand: "Infinix",
+        brand: "Huawei",
         category: "laptops",
         images: "https://dummyjson.com/image/i/products/9/1.jpg",
         status: 'used'

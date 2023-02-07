@@ -18,12 +18,12 @@ return (
 <>
     <TableHead>
         <TableRow>
-            <StyledTableCell>name</StyledTableCell>
-            <StyledTableCell align="right">Brand</StyledTableCell>
-            <StyledTableCell align="right">Status&nbsp;(g)</StyledTableCell>
-            <StyledTableCell align="right">price&nbsp;(g)</StyledTableCell>
+            <StyledTableCell>id</StyledTableCell>
+            <StyledTableCell align="right">name</StyledTableCell>
             <StyledTableCell align="right">category&nbsp;(g)</StyledTableCell>
-            <StyledTableCell align="right">Images</StyledTableCell>
+            <StyledTableCell align="right">brand&nbsp;(g)</StyledTableCell>
+            <StyledTableCell align="right">images&nbsp;(g)</StyledTableCell>
+            <StyledTableCell align="right">status</StyledTableCell>
             <StyledTableCell align="right">Config</StyledTableCell>
         </TableRow>
     </TableHead>

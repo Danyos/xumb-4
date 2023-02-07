@@ -6,6 +6,11 @@ function App() {
 
     return (
       <>
+
+
+
+
+
          <ProductIndex />
 
       </>
