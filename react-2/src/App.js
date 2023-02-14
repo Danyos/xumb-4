@@ -2,6 +2,8 @@ import './App.css';
 import React, {useEffect, useState} from "react";
 import InfoShow from "./InfoShow";
 import Context from "./Context";
+import Product from "./Product";
+import Logo from "./logo.svg";
 
 
 function App() {
@@ -102,6 +104,13 @@ useEffect(()=>{
                 :
                 'Datark'
         }
+
+        <Product title="barev bolorin" desc="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus animi aperiam, doloremque"/>
+        <Product title="vonces" img={Logo} desc="consectetur adipisicing elit. Accusamus animi aperiam, doloremque"/>
+        <Product title="consectetur adipisicing elit." desc="Accusamus animi aperiam, doloremque"/>
+
+
+
 
 
 

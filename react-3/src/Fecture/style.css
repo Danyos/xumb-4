@@ -1,0 +1,117 @@
+body{
+    font-family:  'Oswald', sans-serif;
+    color: #343434;
+    font-size: 16px;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+/* /mega menu */
+/* Menu Container */
+.sub-nav {
+    position: relative;
+    cursor: default;
+    z-index: 1004;
+    text-align: center;
+    background-color: #ffffff;
+    width: 90%;
+    max-width: 1500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    background-color: teal;
+}
+/* Menu List */
+.sub-nav > li {
+    padding: 0.5rem 2rem;
+}
+/* Menu Links */
+.sub-nav > li > a {
+    font-family: 'Major Mono Display', monospace;
+    font-size: 1.25rem;
+    position: relative;
+    z-index: 510;
+    height: 30px;
+    line-height: 30px;
+    color: $brand;
+    font-weight: 500;
+    letter-spacing: 0.25em;
+    -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+/*
+.sub-nav > li > a:after {
+  content: '\25bc';
+  padding-left: 1.25rem;
+}
+*/
+
+.sub-nav > li:hover > a {
+    text-decoration: underline;
+}
+.sub-nav > li:hover > i:after {
+    content: 'X';
+    pointer-events: none;
+}
+
+.sub-nav > li:hover {
+    background-color: #fff;
+}
+
+.sub-nav > li:hover > a {
+    color: Red;
+}
+
+.sub-nav > li:not(:hover){
+    background-color: rgba(0,0,0, .24);
+}
+/* Menu Dropdown */
+.sub-nav > li > div {
+    position: absolute;
+    display: block;
+    width: 100%;
+    top: 60px;
+    left: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    visibility: hidden;
+    overflow: hidden;
+    opacity: 0;
+    background: #ffffff;
+    border-radius: 0 0 3px 3px;
+    -webkit-transition: all 0.3s ease 0.15s;
+    -o-transition: all 0.3s ease 0.15s;
+    transition: all 0.3s ease 0.15s;
+    z-index: 1005;
+}
+.sub-nav > li:hover > div {
+    opacity: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    visibility: visible;
+    overflow: visible;
+}
+
+.mega-menu-grid {
+    display: flex;
+    justify-content: space-between;
+}
+.mega-menu-grid > * {
+    text-align: left;
+}
+
+.collection-item {
+    background-color:#fff;
+    line-height:1.5rem;
+    padding:10px 20px 10px 0;
+    margin:0;
+}
